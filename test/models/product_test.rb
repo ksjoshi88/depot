@@ -44,4 +44,12 @@ class ProductTest < ActiveSupport::TestCase
         end
   end
 
+  test "the title length should be minimum 10 characters" do
+       @product.title="Nokia"
+       assert_not @product.valid?
+       assert_equal ["Must be at least 10 characters long"] , @product.errors[:title]
+
+  end
+
+
 end
