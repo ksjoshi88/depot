@@ -5,8 +5,12 @@ class Product < ActiveRecord::Base
   validates :title, uniqueness:true, length: {minimum: 10, message: "Must be at least 10 characters long"}
 
   validates :image_url, allow_blank: true, format:
-              {
-                with: %r{\.(gif|jpg|png)\Z}i,
-                message: 'must be a URL for GIF, JPG or PNG image.'
-              }
+  {
+    with: %r{\.(gif|jpg|png)\Z}i,
+    message: 'must be a URL for GIF, JPG or PNG image.'
+  }
+  def self.latest
+    Product.order(:updated_at).last
+  end
 end
+

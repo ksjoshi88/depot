@@ -8,9 +8,22 @@
 #---
 require 'test_helper'
 class ProductsControllerTest < ActionController::TestCase
-  setup do
-    @product = build(:product)
-
+  def setup
+    ["Samsung tab 3", "Apple iPhone 6", "LG Motospace 4"].each do |s|
+      create("handset_#{s}".to_sym)
+    end
   end
+
+  test "should show index" do
+    get :index
+    assert_response :success
+    assert_select '#pt',3
+  end
+
+  test "should show new page" do
+   get :new
+   assert_response :success
+ end
+
 
 end
