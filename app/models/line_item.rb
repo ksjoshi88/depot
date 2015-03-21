@@ -29,5 +29,11 @@ class LineItem < ActiveRecord::Base
   def paniDa (number)
     puts "Harami"
   end
+
+  def paniDa1 (number)
+    puts "Harami"
+  end
+
+
 end
 
