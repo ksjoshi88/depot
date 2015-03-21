@@ -25,5 +25,9 @@ class LineItem < ActiveRecord::Base
   def commonTimeoass
     puts "kutra"
   end
+
+  def paniDa (number)
+    puts "Harami"
+  end
 end
 
