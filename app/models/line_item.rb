@@ -29,5 +29,9 @@ class LineItem < ActiveRecord::Base
   def paniDa (number)
     puts "Harami"
   end
+
+  def latestFunction1
+    puts "This is my function 1"
+  end
 end
 
