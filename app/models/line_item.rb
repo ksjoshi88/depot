@@ -5,5 +5,9 @@ class LineItem < ActiveRecord::Base
   def myfunction (number)
     puts "The number is #{number}"
   end
+
+  def fun
+    puts 2+3*4
+  end
 end
 
