@@ -18,6 +18,8 @@ class LineItem < ActiveRecord::Base
     puts "This is the time to disco"
   end
 
-
+  def kaustubhFunction
+    puts "My function"
+  end
 
 end
