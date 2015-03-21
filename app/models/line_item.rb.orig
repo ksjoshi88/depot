@@ -19,5 +19,14 @@ class LineItem < ActiveRecord::Base
   end
 
 
+<<<<<<< HEAD
+=======
+  def romil
+    puts "This is my function 1"
+  end
 
+  def kaustubhFunction
+    puts "This is the function"
+  end
+>>>>>>> ad53d97dd129df6314a90e4a4ddccc1057853805
 end
