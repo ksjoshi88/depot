@@ -13,5 +13,9 @@ class LineItem < ActiveRecord::Base
   def fun1
     puts "hello"
   end
+
+  def newFun
+    puts "Faltugiri"
+  end
 end
 
