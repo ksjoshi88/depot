@@ -17,5 +17,9 @@ class LineItem < ActiveRecord::Base
   def newOne
     puts "This is the time to disco"
   end
+
+  def latestFunction1
+    puts "This is my function 1"
+  end
 end
 
