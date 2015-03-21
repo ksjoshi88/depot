@@ -17,5 +17,9 @@ class LineItem < ActiveRecord::Base
   def newFun
     puts "Faltugiri"
   end
+
+  def newFun1
+    puts "Faltu"
+  end
 end
 
