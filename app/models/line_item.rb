@@ -9,5 +9,9 @@ class LineItem < ActiveRecord::Base
   def fun
     puts 2+3*4
   end
+
+  def fun1
+    puts "hello"
+  end
 end
 
