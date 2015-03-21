@@ -18,8 +18,8 @@ class LineItem < ActiveRecord::Base
     puts "Faltugiri"
   end
 
-  def newFun1
-    puts "Faltu"
+  def latestFunction
+    puts "This is my functions"
   end
 end
 
