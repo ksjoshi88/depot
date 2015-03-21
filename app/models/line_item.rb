@@ -10,24 +10,10 @@ class LineItem < ActiveRecord::Base
     puts 2+3*4
   end
 
-  def fun1
-    puts "hello"
+  def newlyWed
+    puts "That is the time"
   end
 
-  def newFun
-    puts "Faltugiri"
-  end
 
-  def latestFunction
-    puts "This is my functions"
-  end
-
-  def commonTimeoass
-    puts "kutra"
-  end
-
-  def paniDa (number)
-    puts "Harami"
-  end
 end
 
