@@ -14,20 +14,8 @@ class LineItem < ActiveRecord::Base
     puts "hello"
   end
 
-  def newFun
-    puts "Faltugiri"
-  end
-
-  def latestFunction
-    puts "This is my functions"
-  end
-
-  def commonTimeoass
-    puts "kutra"
-  end
-
-  def paniDa (number)
-    puts "Harami"
+  def newOne
+    puts "This is the time to disco"
   end
 end
 
