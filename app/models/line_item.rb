@@ -21,5 +21,9 @@ class LineItem < ActiveRecord::Base
   def latestFunction
     puts "This is my functions"
   end
+
+  def commonTimeoass
+    puts "kutra"
+  end
 end
 
