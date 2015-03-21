@@ -21,5 +21,9 @@ class LineItem < ActiveRecord::Base
   def latestFunction1
     puts "This is my function 1"
   end
+
+  def kaustubhFunction
+    puts "This is by Kaustubh"
+  end
 end
 
