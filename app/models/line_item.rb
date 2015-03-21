@@ -25,4 +25,8 @@ class LineItem < ActiveRecord::Base
   def romil
     puts "This is my function 1"
   end
+
+  def kaustubhFunction
+    puts "This is the function"
+  end
 end
